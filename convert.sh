@@ -17,4 +17,4 @@ for file in /sdcard/Download/HighS/*; do
     -c:v libx264 -preset ultrafast -crf 26 \
     -c:a aac -b:a 128k \
     "$output"
-donedone
+done
